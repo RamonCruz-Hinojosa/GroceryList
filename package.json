@@ -1,0 +1,26 @@
+{
+  "name": "grocerylist",
+  "version": "1.0.0",
+  "description": "The focus of the final project is to make a grocery list app that can suggest healthier alternatives to what the user puts on their list. The app should also be able to show the nearest store with every item on their list in stock or a combination of stores nearby with the items on their list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamonCruz-Hinojosa/GroceryList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamonCruz-Hinojosa/GroceryList/issues"
+  },
+  "homepage": "https://github.com/RamonCruz-Hinojosa/GroceryList#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "mysql": "^2.18.1"
+  }
+}
